@@ -6,10 +6,10 @@ This project can be tested by only starting the rest services, is using some of 
 
 Usage
 ======
-* Run WaesRunner class to Start the SpringBoot Service
-* Call "left" endpoint with `http://localhost:<port>/v1/diff/<id>/left` i.e `http://localhost:8088/v1/diff/01/left`
-* Call "right" endpoint with `http://localhost:<port>/v1/diff/<id>/right` i.e `http://localhost:8088/v1/diff/01/right`
-* Call "diff" endpoint with `http://localhost:<port>/v1/diff/<id>` i.e `http://localhost:8088/v1/diff/01`
+* Run WaesApiAssignmentApplication class using Java application to Start the SpringBoot Service
+* Call "left" endpoint with `http://localhost:<port>/v1/diff/<id>/left` i.e `http://localhost:8080/v1/diff/01/left`
+* Call "right" endpoint with `http://localhost:<port>/v1/diff/<id>/right` i.e `http://localhost:8080/v1/diff/01/right`
+* Call "diff" endpoint with `http://localhost:<port>/v1/diff/<id>` i.e `http://localhost:8080/v1/diff/01`
 
 Rest Service Endpoint's Basic Configuration
 ======
@@ -23,4 +23,4 @@ Integration Tests
 
 Swagger
 ======
-For Rest Api end points, the api documentation and testing can be done using swagger in Browser by accessing http://localhost:8080/swagger-ui.html
+* For Rest Api end points, the api documentation and testing can be done using swagger in Browser by accessing http://localhost:8080/swagger-ui.html
